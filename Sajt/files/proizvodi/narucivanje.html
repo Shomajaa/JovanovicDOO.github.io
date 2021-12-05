@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Jovanović DOO-Narudžbina</title>
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="secondary-menu">
+                <li><a href="tel:+381127101489">Korisnička podrška: 012 710 14 89</a></li>
+                <li>Radnim danima: 8h-16h, subotom: 8h-14h</li>
+                <li><a href="tel:+38112555333">Pravna lica: 012 555-333</a></li>
+            </ul>
+            <ul id="icons">
+                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            </ul>
+            <div class="cleaner"></div>
+        </nav> 
+        <div id="main-nav">
+            <div class="container">
+                <div id="logo">
+                    <a href="../../index.html"><img src="../../img/logo1.jpg" alt="logo"/></a>
+                </div>
+                <div id="meni">
+                    <nav>
+                        <ul id="main-menu">
+                            <li><a href="../../index.html"><span class="fa fa-home"></span> Početna</a></li>
+                            <li><a href="../proizvodi.html"><span class="fa fa-shopping-cart"></span> Proizvodi</a></li>
+                            <li><a href="../onama.html"><span class="fa fa-user"></span> O autoru</a></li>
+                            <li><a href="../galerija.html"><span class="fa fa-image"></span> Galerija</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cleaner"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <section id="galerija-top">
+            <article><h1>Narudžbina</h1><hr/></article>
+        </section>
+        <section id="narucivanje">
+            <article class="forma">
+                <form method="post" action="">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Ime:<span class="crveno">*</span>
+                                </td>
+                                <td>
+                                    <input type="text" id="ime" name="ime" placeholder="Mihajlo" required/>
+                                </td>
+                                <td>
+                                    Prezime:<span class="crveno">*</span>
+                                </td>
+                                <td>
+                                    <input type="text" id="prezime" name="prezime" placeholder="Jovanović" required/>
+                                </td>
+                                <td>
+                                    Email:
+                                </td>
+                                <td>
+                                    <input type="email" id="email" name="email" placeholder="example&#64;gmail&#46;com" required />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Adresa:<span class="crveno">*</span>
+                                </td>
+                                <td>
+                                    <input type="text" id="adresa" name="adresa" placeholder="Radeta Markovića 4B" required/>
+                                </td>
+                                <td>
+                                    Kontakt telefon:<span class="crveno">*</span>
+                                </td>
+                                <td>
+                                    <input type="tel" id="phone" name="phone" placeholder="061-10-10-100" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}" maxlength="10" required/>
+                                </td>
+                                <td>
+                                    Način plaćanja:<span class="crveno">*</span>
+                                </td>
+                                <td>
+                                    <input type="radio" id="pouzeće" name="payment" required/>
+                                    <span class="plaćanje">Pouzećem</span> <br/>
+                                    <input type="radio" id="račun" name="payment" required/>
+                                    <span class="plaćanje">Preko računa</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </article>
+        </section>
+    </section>
+
+</body>
+</html>
